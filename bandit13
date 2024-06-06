@@ -1,0 +1,2 @@
+1. delete all 'data*' files if exists.
+2. execute: >> ./descompressor.sh hexdumpfile

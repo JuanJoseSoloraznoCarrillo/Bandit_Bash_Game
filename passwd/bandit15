@@ -1,0 +1,7 @@
+sending the password of the current bandit14, which is in /etc/bandit_pass/bandit14, through `telnet` or netcat (`cn`)
+>> telnet 127.0.0.1 30000 <Enter> 
+bandit14 pwd <Enter>
+
+>> echo "bandit14 pwd" | nc localhost 30000
+
+pwd=jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt

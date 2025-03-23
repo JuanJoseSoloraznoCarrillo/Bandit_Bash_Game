@@ -1,4 +1,11 @@
-#!/bin/bash 
+#!/bin/bash
+#=======================================================================================
+# Author: Solorzano, Juan Jose.
+# Date: 2020-07-07
+# Version: 1.0
+#---------------------------------------------------------------------------------------
+# This script is used to implement the rot13 algorithm.
+#=======================================================================================
 
 data="Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi"
 string="abcdefghijkl"
@@ -10,6 +17,4 @@ echo "Using tr we can group using: '[A-Za-a]'(all letters) to rotate '[N-ZA-Mn-z
 echo "Example: string=Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi"
 echo ">> string | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'"
 echo "output:"
-echo $data | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
-
-
+echo "$data" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
